@@ -1,4 +1,4 @@
 # HMDA LAR Data Retrieval and Analysis
 
 This project retrieves Home Mortgage Disclosure Act (HMDA) Loan Application Register (LAR) files and performs data analysis on mortgage lending trends. This small projects seeks to identify patterns on lending patterns, geographic trends, and borrower demographics.
-In this project, I provide a Python script that retrieves HMDA LAR datasets from the Consumer Financial Protection Bureau.
+In the ```code``` folder, the script ```hmda_retrieve.py``` retrieves HMDA LAR datasets from the Consumer Financial Protection Bureau and stores them in the ```data``` folder. There, I retrieve HMDA LAR files for 2015, 2016, and 2017. We will also extract the zip files (though this is optional and is meant as an optional exercise). For more historical HMDA LAR data (i.e., 1981-2006), see Andrew Forrester's work [here](https://github.com/acforrester/HMDA.Historical). This is an incredible project that retrieves historical HMDA LAR files from the National Archives, which is also available for download [on openICPSR](https://www.openicpsr.org/openicpsr/project/151921/version/V1/view). 
