@@ -5,7 +5,7 @@ library(fs)       # For file system functions
 # Define the years for which we want to download the data
 years <- c(2012, 2013, 2014)
 
-# Create a loop that downloads and stores the CSVs to the data folder
+# Create a loop that downloads and stores the zip files to the data folder
 for (year in years) {
   url <- paste0('https://files.consumerfinance.gov/hmda-historic-loan-data/hmda_', year, '_nationwide_all-records_labels.zip')
   
