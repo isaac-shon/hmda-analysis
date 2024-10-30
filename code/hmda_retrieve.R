@@ -15,7 +15,7 @@ for (year in years) {
   # Download the zip file
   GET(url, write_disk(zip_path, overwrite = TRUE))
   
-  # Unzip the file
+  # OPTIONAL: Unzip the file
   # unzip(zip_path, exdir = "data/")
   # 
   # Remove the zip file
