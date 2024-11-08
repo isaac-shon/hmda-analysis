@@ -2,8 +2,9 @@ library(httr)     # For downloading files
 library(zip)      # For unzipping files
 library(fs)       # For file system functions
 
+setwd('C:/Users/isaac/Desktop/Projects/hmda-analysis')
 # Define the years for which we want to download the data
-years <- c(2012, 2013, 2014)
+years <- c(2017)
 
 # Create a loop that downloads and stores the zip files to the data folder
 for (year in years) {
