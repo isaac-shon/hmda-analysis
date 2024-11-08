@@ -2,11 +2,12 @@ import dask.dataframe as dd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 import os 
-os.chdir("C:\\Users\\isaac\\OneDrive\\Desktop\\example_codes\\HMDA")
+os.chdir("C://Users//isaac//Desktop//Projects//hmda-analysis")
 
 # Read the large CSV file we extracted using Dask:
-df = dd.read_csv('data\\hmda_2017_nationwide_all-records_labels.csv', assume_missing=True, low_memory=False)
+df = dd.read_csv('data//hmda_2017_nationwide_all-records_labels.csv', assume_missing=True, low_memory=False)
 
 # Bar Chart 1: Purpose of Loans
 loan_purpose = df['loan_purpose_name'].value_counts().compute() # Count occurrences of each category
